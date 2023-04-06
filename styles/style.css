@@ -1,0 +1,60 @@
+body {
+    width: 1600px;
+    height: 800px;
+    background-image: linear-gradient(0.25turn, lightblue, lightcoral);
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+}
+* {
+    font-size: larger;
+}
+
+.box1 {
+    text-align: center;
+    font-size: 200%;
+    word-spacing: 30px;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+.box2 {
+    font-size: medium;
+    grid-column-start: 1;
+    grid-row: 2 / 5;
+}
+.box3 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 5;
+}
+em {
+    color: rgb(43, 102, 222);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+.proj_title {
+    text-decoration: underline;
+}
+.proj_discription {
+    text-align: justify
+}
+.wdb {
+    width: 400px;
+    height: 700px;
+}
+img {
+    width: 800px;
+    height: 400px;
+}
+.titles {
+    font-size: 60px;
+    font-style: italic;
+    color: rgb(154, 52, 12);
+}
